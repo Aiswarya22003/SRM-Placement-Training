@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+x=a+c
+y=b+d
+z=y//100
+A=y%100
+x=x+z
+print(int(x))
+print(int(A))
