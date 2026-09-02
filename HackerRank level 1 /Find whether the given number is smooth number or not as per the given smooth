@@ -1,0 +1,13 @@
+b, c = map(int, input().split())
+
+a = b
+flag = 1
+
+for i in range(2, c + 1):
+    while a % i == 0:
+        a = a // i
+
+if a == 1:
+    print("Smooth Number")
+else:
+    print("Not a Smooth Number")
