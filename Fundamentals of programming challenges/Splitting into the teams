@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+if a%b==0:
+    print(f"The number of friends in each team is {a//b} and left out is 0")
+else:
+    print(f"The number of friends in each team is {a//b} and left out is {a%b}"
